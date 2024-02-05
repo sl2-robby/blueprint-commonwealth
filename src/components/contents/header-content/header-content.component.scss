@@ -1,0 +1,13 @@
+@import '../../../assets/scss/variables/color.scss';
+
+.header-content {
+	background-color: $white;
+	padding: 20px;
+	text-align: left;
+  border-radius: 10px;
+
+  .title {
+    margin: 0;
+    color: $font-purple;
+  }
+}

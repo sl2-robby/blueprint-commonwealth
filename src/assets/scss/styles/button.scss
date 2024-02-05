@@ -1,0 +1,17 @@
+@import '../variables/color.scss';
+
+.btn-generate {
+  border-radius: 20px !important;
+  border: 1px solid #ccc !important;
+  padding: 0px 20px !important;
+  height: 50px !important;
+  background-color: $background-white !important;
+
+  &:hover {
+    background-color: $background-white !important;
+  }
+}
+
+.no-border {
+  border: none !important;
+}
