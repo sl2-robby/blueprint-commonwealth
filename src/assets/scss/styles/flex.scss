@@ -1,0 +1,14 @@
+.sl-flex-wrap {
+  display: flex;
+	flex-wrap: wrap;
+}
+
+.sl-flex-row {
+  display: flex;
+  direction: row;
+}
+
+.sl-flex-column {
+  display: flex;
+  direction: column;
+}
