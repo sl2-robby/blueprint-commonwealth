@@ -16,6 +16,8 @@ ng g s <NAMA-SERVICE>
 
 # Contoh Micro-Service: Integrasi Dengan OpenAI
 
+Buat service seperti berikut:
+
 ```
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
@@ -46,6 +48,8 @@ export class OpenAiService {
 
 }
 ```
+
+> Catatan: karena kita akan mengkonsumsi api yang membutuhkan penyesuain header, terlebih dahulu kita perlu meng-import buildin function yang telah disebiakan Angular, yaitu HttpClient dan HttpHeaders. Selanjutnya, pastikan telah meng-import Injectable dan mem-provide-nya di root agar micro-service yang akan kita buat dapat digunakan di seluruh component.
 
 # Contoh Penggunaan Micro-Service Di Components
 
