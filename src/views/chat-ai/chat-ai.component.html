@@ -25,6 +25,7 @@
           class="promt-input"
           placeholder="Enter promt here"
           [formControl]="promtInput"
+          (keyup.enter)="onClickGenerate()"
         />
         <button mat-button color="primary btn-generate right-auto no-border" (click)="onClickGenerate()">
           <span class="material-icons">

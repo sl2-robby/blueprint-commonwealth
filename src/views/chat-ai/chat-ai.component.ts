@@ -12,6 +12,8 @@ import { CommonModule } from '@angular/common';
     imports: [HeaderContentComponent, MatButtonModule, FormsModule, ReactiveFormsModule, CommonModule]
 })
 export class ChatAiComponent {
+  title = 'chat-ai';
+
   promtInput = new FormControl('');
   policy: string =''
 
