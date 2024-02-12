@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/chat-gpt/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
